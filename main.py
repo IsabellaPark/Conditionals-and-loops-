@@ -42,10 +42,42 @@
 #   print(counter + 1)
 
 #list od numbers 
-numbers = [1, 2, 3, 4, 5]
-sum = 0
-# get the sum of all numbers
-for numbers in range(1, 6):
-  sum = sum + numbers 
-  print(sum)
+# numbers = [1, 2, 3, 4, 5]
+# sum = 0
+# # get the sum of all numbers
+# for numbers in range(1, 6):
+#   sum = sum + numbers 
+#   print(sum)
 
+#conditionals 
+#--------------------------------------------
+#definition: if x then y 
+# ex. if I go to school then I will learn
+# ex. if I drink and drive i will get into an accident 
+
+#if statements are used for desition making. If statements only run if the boolean experetion is true
+
+#template if <boolean experetion> 
+# money = 5
+# if money == 5:
+#   print("I have 5 dollars!")
+#   money = 10
+#   if money == 10:
+#     print("I gained 5 more dollars!")
+# elif money == 6:
+#   print("I have 7 dollars!")
+# elif money == 7:
+#   print("I have 7 dollars!")
+# else:
+#   print("I have a different amount of money")
+
+
+season = input("What season is it right now? ")
+if season == "winter":
+  print("Stay warm!")
+elif season == "fall":
+  print("look at the colorful leaves")
+elif season == "spring":
+  print("go on a walk")
+else:
+  print("go to the pool!")
